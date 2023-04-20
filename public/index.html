@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Portafolio LÚMINA // SETHA // NOJAU</title>
+  </head>
+  <body>
+    <header class="bg-light fixed-top">
+      <div class="container">
+        <div class="d-flex flex-wrap justify-content-center py-2">
+          <a
+            href=""
+            data-src="holder.js/100px180/"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+          >
+            <span class="fs-4 flex" style="display: flex;">
+              <span class="lumina--logo">
+                ⬢ LÚMINA <br><span>INTERACTIVA</span></span
+              >
+              <img src="images/03B_IDMarco_NegroSobreBlanco.png" alt="Setha" width="15px">
+            </span>
+            
+            <p class="ms-4 ps-4 text-secondary">
+              Contenidos
+              <img
+                src="images/NOJAU-parte-superiorpng.png"
+                alt=""
+                width="80px"
+                height=""
+              />
+            </p>
+          </a>
+          <div>
+          </div>
+           <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="paquetes.html" class="nav-link">Paquetes</a></li>
+           <!-- <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>-->
+          </ul> 
+        </div>
+      </div>
+    </header>
+
+    <!-- Button trigger modal -->
+    <!-- Button trigger modal -->
+    <!-- Button trigger modal -->
+
+    <div class="container cardsContainer">
+      <!-- ////////////////////////////////////////////////////////////////////////// Modal podcast -->
+
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+        onclick="elementosIframe(null)"
+      >
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <!-- <h5 class="modal-title" id="exampleModalLabel">Podcast</h5> -->
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                onclick="elementosIframe(null)"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="row p-4">
+                <div class="col-lg-4 col-sm-12">
+                  <div class="phoneCase" id="phonecase">
+                  
+                  </div>
+                </div>
+                <div class="col-lg-8 col-sm-12 p-2">
+                  <h2>Características</h2>
+                  <div id="caracteristicas"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore totam at fugiat omnis autem, soluta nobis reiciendis. At inventore eos pariatur commodi assumenda neque. Ad voluptatem id et dolorem maxime?</div>
+                  
+                  </p>
+
+                  <h2>Notas</h2>
+                  <div id="notas">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore placeat amet fugiat nostrum delectus voluptas repellat ullam eaque, officia quidem maxime nihil quisquam enim ratione adipisci possimus perspiciatis veniam architecto!</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+                onclick="elementosIframe(null)"
+              >
+                Cerrar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- //////////////////////////////////////////////////// Modal termina-->
+
+     
+
+      <div class="row g-5" id="cardRows"></div>
+
+
+
+      <div class="row p-4">
+        <div class="col-lg-4 col-sm-12">
+        <img src="images/principal.png" alt="" class="img-fluid">  
+        </div>
+        <div class="col-lg-8 text-center col-sm-12">
+          <div class="align-middle  text-light" style="padding-top: 8rem;">
+          <h1>Set de contenidos para plataforma Nojau.co</h1>
+          <h2>
+            Aquí encontrarás diversos tipos de materiales interactivos desarrollados para la plataforma Nojau 
+          </h2>
+        </div>
+
+        </div>
+      </div>
+
+
+
+      <div class="row g-5">
+        <div class="col-md-4 col-sm-12">
+          <div class="card">
+            <!-- <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Card image cap"
+            /> -->
+            <div class="card-body">
+              <h5 class="card-title">Podcast</h5>
+              <p class="card-text">
+                Contenidos de audio con imagen de la organización
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                onclick="elementosIframe('courses/podcast/podcast/story.html', 'Archivo multimedia en el que se presenta de una forma personal/empresarial un contenido de audio. Se puede desarrollar en formato formato tipo: presentación, conversatorio y entrevista.', 'Se entrega un documento con el paso a paso y recomendaciones para grabar adecuadamente el audio.')"
+                >Ver detalles</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="card">
+            <!-- <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Card image cap"
+            /> -->
+            <div class="card-body">
+              <h5 class="card-title">Vodcast</h5>
+              <p class="card-text">
+                Contenidos tipo motion graphic basados en audio
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                onclick="elementosIframe('courses/vodcast/vodcast - Storyline output/story.html', 'Archivo multimedia en el que se presenta de una forma personal/empresarial un contenido de video mediante motion graphics. Se puede desarrollar en formato tipo: presentación, conversatorio y entrevista.', 'Se entrega un documento con el paso a paso y recomendaciones para grabar adecuadamente el audio.')"
+                >Ver detalles</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="card" >
+            <!-- <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Card image cap"
+            /> -->
+            <div class="card-body">
+              <h5 class="card-title">Personaje animado</h5>
+              <p class="card-text">
+                Contenidos interactivos desarrollados mediante un personaje animado
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                onclick="elementosIframe('courses/personaje/personajeanimado - Storyline output/story.html', 'Archivo multimedia en el que se presenta de una forma personal/empresarial un contenido de video mediante un personaje animado a partir de motion graphics.', 'El desarrollo de la personificación de la intención de la marca como: estilo visual, voz, background, movimiento, looknfeel y efectos de audio se realizan mediante una previa aprobación.')"
+                >Ver detalles</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="w-100"></div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="card">
+            <!-- <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Card image cap"
+            /> -->
+            <div class="card-body">
+              <h5 class="card-title">Contenido interactivo point & Clic</h5>
+              <p class="card-text">
+                
+                Contenidos que se pueden visualizar a partir de la selección de botones interactivos.
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                onclick="elementosIframe('courses/point-clic/point-CLIC - Storyline output/story.html', 'Archivo multimedia elaborado con una técnica de animación digital a partir de ilustraciones, diseños, y diferentes tipos de elementos en el que se presenta de una forma interactiva contenidos tipo bit de información mediante botones, deslizadores o diales.', 'Por medio de una reunión previa se especifica el paso a paso para la entrega de un storyboard y el posterior desarrollo del elemento interactivo.')"
+                >Ver detalles</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="card" >
+            <!-- <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Card image cap"
+            /> -->
+            <div class="card-body">
+              <h5 class="card-title">
+                Contenido interactivo point & Clic con retroalimentación
+              </h5>
+              <p class="card-text">
+                Contenidos que generan retroalimentación a partir de la selección de botones interactivos.
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                onclick="elementosIframe('courses/point-clic-oikos/point-CLIC-oikos - Storyline output/point-CLIC-oikos - Storyline output/story.html', 'Producción audiovisual interactiva acompañada de elementos tipo holograma, con una producción en estudio, escenografía, actores y demás requerimientos específicos.', 'Por medio de una reunión previa se especifica el paso a paso para la entrega de un storyboard y el posterior desarrollo del elemento interactivo.')"
+                >Ver detalles</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="card" >
+            <!-- <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Card image cap"
+            /> -->
+            <div class="card-body">
+              <h5 class="card-title">Paso a paso in situ o recreado</h5>
+              <p class="card-text">
+                Paso a paso interactivo a partir de bits de información mediante producción audiovisual in situ.
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                onclick="elementosIframe('courses/paso a paso/PASOAPASOMCCAIN - Storyline output/story.html', 'Producción audiovisual interactiva acompañada de elementos tipo motion graphics, con una producción en estudio, escenografía, actores, voz en off y demás requerimientos específicos.', 'Por medio de una reunión previa se especifica el paso a paso para la entrega de un storyboard y el posterior desarrollo del elemento interactivo.')"
+                >Ver detalles</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="w-100"></div>
+
+        <div class="col-md-6 col-sm-12">
+          <div class="card">
+            <!-- <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Card image cap"
+            /> -->
+            <div class="card-body">
+              <h5 class="card-title">
+                Contenido interactivo point & Clic w video
+              </h5>
+              <p class="card-text">
+
+                Contenidos que se pueden visualizar a partir de la selección de botones interactivos.
+                
+                
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                onclick="elementosIframe('courses/point-clic-cbolivar/point-CLIC-cobolivar - Storyline output/story.html', 'Archivo multimedia elaborado con una técnica de animación digital a partir de ilustraciones, diseños, y diferentes tipos de elementos en el que se presenta de una forma interactiva contenidos tipo bit de información mediante botones, deslizadores o diales.', 'Por medio de una reunión previa se especifica el paso a paso para la entrega de un storyboard y el posterior desarrollo del elemento interactivo.')"
+                >Ver detalles</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- 
+        <div class="col">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Texto e imagen animado</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Ver detalles</a>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col">
+          <div class="card" style="">
+            <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Drag and drop</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Ver detalles</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="">
+            <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Concentrese</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Ver detalles</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-100"></div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Quien quiere ser millonario</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Ver detalles</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="">
+            <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Línea de tiempo</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Ver detalles</a>
+            </div>
+          </div>
+        </div>-->
+
+        <div class="col-md-6 col-sm-12">
+          <div class="card">
+            <!-- <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Card image cap"
+            /> -->
+            <div class="card-body">
+              <h5 class="card-title">Contenidos personalizados</h5>
+              <p class="card-text">
+             Desarrollamos tu idea según las especificaciones necesarias.
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                onclick="elementosIframe('courses/point-clic-cbolivar/point-CLIC-cobolivar - Storyline output/story.html', 'Desarrollo de contenidos interactivos / audiovisuales según tus requerimientos', 'Desarrollaremos tu requerimiento desde la idea hasta su finalización')"                >Ver detalles</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Init card test -->
+
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top bg-light"
+    >
+      <div class="container">
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">© Lúmina Interactiva 2023</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-muted" href="#"
+              ><svg class="bi" width="24" height="24">
+                <use xlink:href="#twitter"></use></svg
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="#"
+              ><svg class="bi" width="24" height="24">
+                <use xlink:href="#instagram"></use></svg
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="#"
+              ><svg class="bi" width="24" height="24">
+                <use xlink:href="#facebook"></use></svg
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script
+      src="js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+   
+    <script src="main.js"></script>
+  </body>
+</html>

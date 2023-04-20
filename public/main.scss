@@ -1,0 +1,110 @@
+// $primary: red;
+$font-size-base: 0.8rem;
+$font-family-base: "Montserrat", sans-serif;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;900&display=swap");
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+html,
+body {
+  background-color: #4158d0;
+  // background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background: #4ac29a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #bdfff3,
+    #4ac29a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #bdfff3,
+    #4ac29a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+html,
+body {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+
+.lumina--logo {
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-size: 0.7rem;
+  span {
+    width: 100%;
+    // display: block;
+    letter-spacing: 1px;
+    font-weight: 900;
+  }
+}
+
+.cardsContainer {
+  margin-top: 8rem;
+}
+
+.phoneCase {
+    /* background: url(images/phoneCase.png); */
+    background-position: center;
+    background-size: contain;
+    /* padding: 40px 54px 40px 112px; */
+    background-repeat: no-repeat;
+  }
+  
+
+iframe {
+  // border: 2px solid black;
+  body {
+    background: transparent !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .phoneCase {
+    background: none;
+    background-position: center;
+    background-size: contain;
+    padding: 0px;
+    background-repeat: no-repeat;
+  }
+}
+
+.lumina--logo {
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-size: 0.7rem;
+}
+.lumina--logo span {
+  width: 100%;
+  letter-spacing: 1px;
+  font-weight: 900;
+  padding-right: 1rem;
+}
+
+.cardsContainer {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+
+iframe body {
+  background: transparent !important;
+}
+
+.card-text {
+  min-height: 80px;
+}
+.card-title {
+  min-height: 40px;
+}
+
+
